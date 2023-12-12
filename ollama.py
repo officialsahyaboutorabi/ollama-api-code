@@ -15,12 +15,12 @@ class Ollama:
     FUNCTION = "execute"
     CATEGORY = "AutoGen/LLM"
 
-    def execute(self, model, api_type, api_base):
+    def execute(self, model, api_type, base_url):
         config_list = [
             {
                 'model': model,
                 'api_type': api_type,
-                'api_base': api_base,
+                'base_url': base_url,
 
             }
         ]
