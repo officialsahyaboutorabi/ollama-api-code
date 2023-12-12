@@ -7,7 +7,7 @@ class Ollama:
             "required": {
                 "model": ("STRING", {"default": "ollama/mistral"}),
                 "api_type": ("STRING", {"default": "litellm"}),
-                "api_base": ("STRING", {"default": "http://0.0.0.0:8000"})
+                "base_url": ("STRING", {"default": "http://0.0.0.0:8000"})
             }
         }
 
